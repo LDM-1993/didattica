@@ -1,26 +1,45 @@
-<!DOCTYPE html>
-<html lang="it">
-<title>archimede di siracusa - esercizio</title>
 
-<h1>archimede di siracusa</h1>
-<p><strong>Archimede di Siracusa</strong> (in greco antico : Ἀρχιμήδης<sup>?</sup>,<i>Archimédēs</i>; <a href="#">Siracusa</a>, 287 a.C. circa-<br>
-    <a href="#">Siracusa</a>, <a href="#">212 a.C.</a> ) è stato un <a href="#">matematico</a>, <a href="#">fisico</a> e <a href="#">inventore siceliota</a></p>
-    <br>
-    <br>
-    <p>Considerato come uno dei più grandi scienziati e matematici della storia, contribuì ad aumentare la<br>
-        conoscenza in settori che spaziano dalla<a href="#">geometria</a>all'<a href="#">idrostatica</a>, dall'<a href="#">ottica</a> alla <a href="#">meccanica</a>:<br>
-        fu in grado di calcolare la superficie e il volume della <a href="#">sfera</a> e formulò <a href="#">le leggi che regolano il galleggiamento dei corpi</a>; in campo <a href="#"> ingegneristico</a>, scoprì e sfruttò i principi di funzionamento delle<br>
-        <a href="#">leve</a> e il suo stesso nome è associato a numerose macchine e dispositivi, come la <a href="#">vite di archimede</a>,<br>
-        a dimostrazione della sua capacità inventiva. Circondate ancora da un alone di mistero<br>
-        sono invece le macchine da guerra che Archimede avrebbe preparato per difendere Siracusa<br>
-        dall'<a href="#">assedio romano</a>.</p>
-        <br>
-        <br>
-        <p>La sua vita è ricordata attraverso numerosi aneddoti, talvolta di origine incerta, che hanno<br>
-            contribuito a costruire la figura dello scienziato nell'immaginario collettivo. È rimasta celebre nei<br>
-            secoli, ad esempio, l'esclamazione <a href="#"><i>èureka</i></a> (- ho trovato! ) a lui attribuita dopo la scoperta<br>
-            del <a href="#"> principio sul galleggiamento dei corpi</a> che ancora oggi porta il suo nome<sup>[2]</sup>.</p>
-            
-
-
+<!DOCTYPE HTML> 
+<html lang="ita"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport"content="width=device-width,initial-scale=0.1"> 
+        <title>Archimede di siracusa-esercizio tag-html</title> 
+    </head> 
+    <body> 
+        <header> 
+            <h1>Archimede di siracusa</h1> 
+        </header> 
+        <nav> 
+            <ul> 
+                <li><a href="#">Home</a></li> 
+                <li><a href="#">Biografia</a></li> 
+                <li><a href="#">Scoperte</a></li> 
+                <li><a href="#">Curiosità</a></li> 
+            </ul> 
+        </nav> 
+        <section> 
+            <h2>Archimede di risacusa:</h2>
+            <figure style="float: right;margin-right: 20px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Retrato_de_un_erudito_%28%C2%BFArqu%C3%ADmedes%3F%29%2C_por_Domenico_Fetti.jpg"alt=""width="250" height="auto">
+        <figcaption>Archimede in un dipinto di<a href="#">Domenico Fetti</a>(1620)</figcaption>
+            </figure>
+            <p>
+                <strong>Archimede di Siracusa</strong> (in greco antico : Ἀρχιμήδης?,<I>Archimédēs</I>; <a href="#">Siracusa</a>,212 a.C. ) è stato un <a href="#">matematico</a>, 
+                <a href="#">fisico</a> e <a href="#">inventore siceliota</a>.
+            </p> 
+            <p>
+                Considerato come uno dei più grandi scienziati e matematici della storia, contribuì ad aumentare la conoscenza in settori che spaziano dalla <a href="#">geometria</a> all' <a href="#">idrostatica</a>, dall'<a href="#">ottica</a> alla <a href="#">meccanica</a>: fu in grado di calcolare la superficie e il volume della <a href="#">sfera</a> e formulò <a href="#">le leggi che regolano il galleggiamento dei corpi</a>.<br>In campo <a href="#">ingegneristico</a>, scoprì e sfruttò i principi di funzionamento delle <a href="#">leve</a> e il suo stesso nome è associato a numerose macchine e dispositivi, come la <a href="#">vite di Archimede</a>, a dimostrazione della sua capacità inventiva.<br>Circondate ancora da un alone di mistero sono invece le macchine da guerra che Archimede avrebbe preparato per difendere Siracusa dall'<a href="#">assedio romano</a>.
+            </p>
+            <p>
+                La sua vita è ricordata attraverso numerosi aneddoti, talvolta di origine incerta, che hanno contribuito a costruire la figura dello scienziato nell'immaginario collettivo. E' rimasta celebre nei secoli, ad esempio, l'esclamazione <i>" èureka! "</i> (ho trovato!) a lui attribuita dopo la scoperta del <a href="#">galleggiamento dei corpi</a> che ancora oggi porta il suo nome<sup>[2]</sup>
+            </p>
+        </section>
+        <footer>
+            <p>
+                2025 Archimede di Siracusa.<br>Tutti i diritti riservati.
+            </p>
+        </footer>
+</body>
+</html>
 
