@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabella Nutrizionale</title>
+    <style>
+        table {
+            width: 100%;
+            border: 2px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border: none; /* Rimuove i bordi */
+        }
+        th {
+            background-color: rgb(255, 255, 255);
+        }
+        .th-header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 65, 94);
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+        }
+.azzurro {
+            background-color: #afd3ff; /* Azzurro chiaro */
+            padding: 8px;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="6"
+            style="background-color: rgb(44, 65, 94); color: white; font-size: 35px; text-align: center; border: 1px solid black; padding: 10px;">
+        VALORI NUTRIZIONALI
+        </th>
+        </tr>
+        <tr>
+            <tr>
+                <th class="th-header"></th>
+                <th class="th-header" style="color: rgb(44, 65, 95);" >100gr</th>
+                <th class="th-header" style="color: rgb(44, 65, 95);">Porzione(150 g)</th>
+                <th class="th-header" style="color: rgb(44, 65, 95);">AR(100 g)</th>
+                <th class="th-header" style="color: rgb(44, 65, 95);">AR (150 g)</th>
+                <th class="th-header" style="color: rgb(44, 65, 95);">Assunzioni di riferimento</th>
+            </tr>
+        <tr>
+            <th class="azzurro" style="color: rgb(44, 65, 95);">Energia</th>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">1545 kJ / 364 kcal</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">2318 kJ / 546 kcal</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">18.4%</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">27.6%</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">8400 kJ / 2000 kcal</td>
+        </tr>
+        <tr>
+            <th style="color: rgb(44, 65, 95);">Grassi</th>
+            <td style="color: rgb(44, 65, 95);">0.8 g</td>
+            <td style="color: rgb(44, 65, 95);">1.2 g</td>
+            <td style="color: rgb(44, 65, 95);">1.1%</td>
+            <td style="color: rgb(44, 65, 95);">1.7%</td>
+            <td style="color: rgb(44, 65, 95);">70 g</td>
+        </tr>
+        <tr>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">di cui grassi saturi</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">0 g</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">0 g</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">0%</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">0%</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">20 g</td>
+        </tr>
+        <tr>
+            <th style="color: rgb(44, 65, 95);">Carboidrati</th>
+            <td style="color: rgb(44, 65, 95);">77 g</td>
+            <td style="color: rgb(44, 65, 95);">116 g</td>
+            <td style="color: rgb(44, 65, 95);">29.6%</td>
+            <td style="color: rgb(44, 65, 95);">44.4%</td>
+            <td style="color: rgb(44, 65, 95);">260 g</td>
+        </tr>
+        <tr>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">di cui zuccheri</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">1.7 g</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">2.6 g</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">1.9%</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">2.8%</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">90 g</td>
+        </tr>
+        <tr>
+            <th style="color: rgb(44, 65, 95);">Fibre</th>
+            <td style="color: rgb(44, 65, 95);">2.4 g</td>
+            <td style="color: rgb(44, 65, 95);">3.6 g</td>
+            <td></td>
+            <td></td>
+            <td style="color: rgb(44, 65, 95);">g</td>
+        </tr>
+        <tr>
+            <th class="azzurro" style="color: rgb(44, 65, 95);">Proteine</th>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">11 g</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">16 g</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">22%</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">33%</td>
+            <td class="azzurro" style="color: rgb(44, 65, 95);">50 g</td>
+        </tr>
+        <tr>
+            <th style="color: rgb(44, 65, 95);">Sale</th>
+            <td style="color: rgb(44, 65, 95);">0.01 g</td>
+            <td style="color: rgb(44, 65, 95);">0.02 g</td>
+            <td style="color: rgb(44, 65, 95);">0.2%</td>
+            <td style="color: rgb(44, 65, 95);">0.2%</td>
+            <td style="color: rgb(44, 65, 95);">6 g</td>
+        </tr>
+    </table>
+</body>
+</html>
