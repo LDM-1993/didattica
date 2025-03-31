@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste Affiancate</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 85vw;
+            margin: 85px auto;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+            color: #41508c;
+        }
+        .column {
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <ul>
+                <li>Erat tempor consetetur dolor facer no molestie kasd.</li>
+                <li>Dolores ex ea ipsum labore est.</li>
+                <li>Et quod sed dolores adipiscing no diam.</li>
+            </ul>
+        </div>
+        <div class="column">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <ol>
+                <li>Erat tempor consetetur dolor facer no molestie kasd.</li>
+                <li>Dolores ex ea ipsum labore est.</li>
+                <li>Et quod sed dolores adipiscing no diam.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
