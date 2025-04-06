@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image with Border</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .text {
+    color: white; /* Testo bianco */
+    font-size: 2rem; /* Modifica la dimensione del testo */
+    font-family: Arial, sans-serif; /* Imposta il tipo di font */
+    font-weight: bold;
+    position: absolute;
+    top: 50px; /* Posiziona il testo 10px dalla parte superiore */
+    left: 100px; /* Posiziona il testo 10px dalla parte sinistra */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Aggiungi un bordo semitrasparente */
+    background-color: rgba(0, 0, 0, 0.3);
+       }
+        .background-container {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Occupare l'intera altezza dello schermo */
+            background-image: url(https://images.pexels.com/photos/1001435/pexels-photo-1001435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); /* qui Inserire link immagine */
+            background-size: cover;
+            background-position: center;
+            border: 15px solid white; /* Bordo bianco attorno all'immagine */
+            box-sizing: border-box; /* Per includere il bordo nel calcolo delle dimensioni */
+            <div class="text">Questa è una frase sopra l'immagine</div>
+        }
+        .text-2 {
+    color: white; /* Testo bianco */
+    font-size: 3rem !important; /* Modifica la dimensione del testo */
+    display: inline-block;
+    font-family: Arial, sans-serif; /* Imposta il tipo di font */
+    font-weight: bold;
+    position: absolute;
+    top: 55px; /* Posiziona il testo 10px dalla parte superiore */
+    left: 100px; /* Posiziona il testo 10px dalla parte sinistra */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Aggiungi un bordo semitrasparente */
+    background-color: rgba(0, 0, 0, 0.3);
+       }
+    </style>
+</head>
+<body>
+
+    <div class="background-container">
+        <div class="text">Questa è una frase sopra l'immagine</div>
+        <h2 class="text-2">PROVA</h2>
+    </div>
+    
+
+</body>
+</html>
