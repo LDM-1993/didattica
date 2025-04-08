@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>The Blue Barrel</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="https://cdn.pixabay.com/photo/2018/01/06/23/53/knight-3066217_1280.jpg" alt="Logo di The Blue Barrel">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Eventi</a></li>
+                    <li><a href="#">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+            <section id="home">
+                <h1>Welcome to the Blue Barrel</h1>
+                <p>Your perfect spot for a drink and a good time!</p>
+            </section>
+            <section id="menu">
+                <h2>il nostro menu</h2>
+                <div class="menu-category">
+                    <h3>Cocktails</h3>
+                    <ul>
+                        <li>Mojito - 8€</li>
+                        <li>Martini - 9€</li>
+                        <li>Negroni - 10€</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h3>Beers</h3>
+                    <ul>
+                        <li>IPA - 5€</li>
+                        <li>Pale Ale - 4€</li>
+                        <li>Lager - 4€</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h3>Vini</h3>
+                    <ul>
+                        <li>Vino Rosso - 7€</li>
+                        <li>Vino Bianco - 6€</li>
+                        <li>Vino Rosé - 7€</li>
+                    </ul>
+                </div>
+            </section>
+
+
+    </body>
+
+
+
+</html>
