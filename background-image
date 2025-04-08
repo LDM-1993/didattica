@@ -44,6 +44,20 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Aggiungi un bordo semitrasparente */
     background-color: rgba(0, 0, 0, 0.3);
        }
+       .paragrafo-basso {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 98.65%;
+        font-family: arial black,Arial, sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+    }
     </style>
 </head>
 <body>
@@ -51,8 +65,9 @@
     <div class="background-container">
         <div class="text">Questa è una frase sopra l'immagine</div>
         <h2 class="text-2">PROVA</h2>
+        <div class="paragrafo-basso">
+            <p>"Questo è un paragrafo di prova, con sfondo nero e scritta bianca"</p>
+        </div>
     </div>
-    
-
 </body>
 </html>
