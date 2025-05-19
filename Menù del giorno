@@ -1,0 +1,118 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Menù del Giorno - Ristorante Bella Vita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenuto">
+    <h1>Ristorante Bella Vita</h1>
+
+    <h2>Antipasti</h2>
+    <ul class="menu-piatti">
+      <li><span class="nome-piatto">Bruschetta al pomodoro</span></li>
+      <li><span class="nome-piatto">Insalata di mare</span></li>
+      <li><span class="nome-piatto">Crostini ai fegatini</span></li>
+    </ul>
+
+    <h2>Primi Piatti</h2>
+    <ul class="menu-piatti">
+      <li><span class="nome-piatto">Lasagne alla bolognese</span></li>
+      <li><span class="nome-piatto">Risotto ai funghi porcini</span></li>
+      <li><span class="nome-piatto">Tortellini in brodo</span></li>
+    </ul>
+
+    <h2>Secondi Piatti</h2>
+    <ul class="menu-piatti">
+      <li><span class="nome-piatto">Arrosto di vitello</span></li>
+      <li><span class="nome-piatto">Filetto al pepe verde</span></li>
+      <li><span class="nome-piatto">Scaloppine al limone</span></li>
+    </ul>
+
+    <h2>Contorni</h2>
+    <ul class="menu-piatti">
+      <li><span class="nome-piatto">Patate al forno</span></li>
+      <li><span class="nome-piatto">Verdure grigliate</span></li>
+      <li><span class="nome-piatto">Insalata mista</span></li>
+    </ul>
+
+    <h2>Dolci</h2>
+    <ul class="menu-piatti">
+      <li><span class="nome-piatto">Tiramisù</span></li>
+      <li><span class="nome-piatto">Panna cotta</span></li>
+      <li><span class="nome-piatto">Torta della nonna</span></li>
+    </ul>
+
+    <br>
+    <p>Vi aspettiamo per gustare insieme!</p>
+    <br>
+    <br>
+    <p class="indirizzo">Via dei Sapori, 123 - Verona</p>
+  </div>
+</body>
+</html>
+
+
+
+
+CSS
+
+body {
+  background-color: #ffffff; /* Colore cornice */
+  border: 15px solid #b60202; /* Cornice rossa */
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 0;
+}
+
+.contenuto {
+  background-color: #fff8e1; /* Sfondo interno elegante */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Titolo principale */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #009302;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Titoli delle sezioni */
+h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  color: #b60202;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Nome del piatto */
+.nome-piatto {
+  font-style: italic;
+  color: #333333;
+  font-size: 18px;
+}
+
+/* Lista dei piatti */
+ul.menu-piatti {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Indirizzo finale */
+.indirizzo {
+  font-size: 12px;
+  color: #555;
+  margin-top: 40px;
+  text-align: left;
+}
