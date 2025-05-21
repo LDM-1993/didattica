@@ -1,0 +1,99 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prodotti Apple</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="product-box" style="background-image: url('https://cdn.pixabay.com/photo/2022/09/25/22/25/iphones-7479304_1280.jpg');">
+      <div class="content">
+        <h2>iPhone</h2>
+        <a href="#">Scopri</a>
+      </div>
+    </div>
+
+    <div class="product-box" style="background-image: url('https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901_1280.jpg');">
+      <div class="content">
+        <h2>MacBook</h2>
+        <a href="#">Scopri</a>
+      </div>
+    </div>
+
+    <div class="product-box" style="background-image: url('https://cdn.pixabay.com/photo/2014/11/12/15/48/apple-528461_1280.jpg');">
+      <div class="content">
+        <h2>iPad</h2>
+        <a href="#">Scopri</a>
+      </div>
+    </div>
+
+    <div class="product-box" style="background-image: url('https://cdn.pixabay.com/photo/2022/05/28/05/29/airpods-7226558_1280.jpg');">
+      <div class="content">
+        <h2>AirPods</h2>
+        <a href="#">Scopri</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+----------------------------
+
+CSS
+
+body {
+    background-color: #baffdc; /* o il colore che vuoi */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* garantisce che il body sia alto almeno quanto la finestra */
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.product-box {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: flex-end;
+}
+
+.product-box .content {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.product-box h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.product-box a {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
