@@ -1,11 +1,10 @@
-HTML
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sito semplice tatuaggi</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,19 +17,17 @@ HTML
     <nav>
       <ul class="naviga">
         <li><a href="#"><strong>Home</strong></a></li>
+        <br>
         <li><a href="#"><strong>Stili</strong></a></li>
+        <br>
         <li><a href="#"><strong>Chi Siamo</strong></a></li>
+        <br>
         <li><a href="#"><strong>Contatti</strong></a></li>
       </ul>
     </nav>
 
 
   </header>
-<br>
-<br>
-<br>
-<br>
-
 
   <div class="container">
     <div class="product-box" style="background-image: url('https://cdn.pixabay.com/photo/2020/02/07/17/13/tatuaje-4827736_1280.jpg');">
@@ -67,8 +64,7 @@ HTML
 </footer>
 
 </html>
-
---------------------
+--------------------------------------
 
 CSS
 
@@ -80,24 +76,25 @@ body {
 }
 
 .naviga a{ 
-  color: #f39c12;
+  color: #ff9d00;
   font-style: italic;
 }
 
-.titolo { 
+.titolo {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 48px;
+  color: #cc0000;
   text-align: center;
-  font-size: 50px;
-  color: red;
- font-family: "Arial Black", Gadget, sans-serif;
- margin-top: 40px;
- margin-bottom: 0px;
+  margin-bottom: 0px;
 }
+
 .titolo2 { 
   text-align: center;
   font-size: 30px;
-  color: red;
+  color:#ff9d00;
  font-style: italic;
  margin-top: 0px;
+ margin-bottom: 0px;
 }
 
 .para {
@@ -105,7 +102,7 @@ body {
   font-size: 30px;
   color: rgb(255, 255, 255);
  font-style: italic;
- margin-top: 0px;
+ margin-bottom: 0%;
 }
 
 .container {
@@ -115,6 +112,7 @@ body {
   max-width: 1000px;
   margin: auto;
   padding: 0px;
+  margin-top: -150px;
 }
 
 .product-box {
