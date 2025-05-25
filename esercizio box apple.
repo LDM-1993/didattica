@@ -11,28 +11,28 @@ HTML
 <body>
 
   <div class="container">
-    <div class="product-box" style="background-image: url('https://cdn.pixabay.com/photo/2022/09/25/22/25/iphones-7479304_1280.jpg');">
+    <div class="box" style="background-image: url('https://cdn.pixabay.com/photo/2022/09/25/22/25/iphones-7479304_1280.jpg');">
       <div class="content">
         <h2>iPhone</h2>
         <a href="#">Scopri</a>
       </div>
     </div>
 
-    <div class="product-box" style="background-image: url('https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901_1280.jpg');">
+    <div class="box" style="background-image: url('https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901_1280.jpg');">
       <div class="content">
         <h2>MacBook</h2>
         <a href="#">Scopri</a>
       </div>
     </div>
 
-    <div class="product-box" style="background-image: url('https://cdn.pixabay.com/photo/2014/11/12/15/48/apple-528461_1280.jpg');">
+    <div class="box" style="background-image: url('https://cdn.pixabay.com/photo/2014/11/12/15/48/apple-528461_1280.jpg');">
       <div class="content">
         <h2>iPad</h2>
         <a href="#">Scopri</a>
       </div>
     </div>
 
-    <div class="product-box" style="background-image: url('https://cdn.pixabay.com/photo/2022/05/28/05/29/airpods-7226558_1280.jpg');">
+    <div class="box" style="background-image: url('https://cdn.pixabay.com/photo/2022/05/28/05/29/airpods-7226558_1280.jpg');">
       <div class="content">
         <h2>AirPods</h2>
         <a href="#">Scopri</a>
@@ -43,19 +43,18 @@ HTML
 </body>
 </html>
 
+
 ----------------------------
 
 CSS
 
-body {
-    background-color: #baffdc; /* o il colore che vuoi */
-    margin: 0;
-    padding: 0;
-    min-height: 100vh; /* garantisce che il body sia alto almeno quanto la finestra */
+body {  /* comandi generici body */
+    background-color: #baffdc;
+    min-height: 100vh;
 }
 
 
-.container {
+.container { /* comandi per le 4 box */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -64,7 +63,7 @@ body {
   padding: 20px;
 }
 
-.product-box {
+.box { /* comandi per la box e il loro interno */
   position: relative;
   height: 300px;
   background-size: cover;
@@ -76,7 +75,7 @@ body {
   align-items: flex-end;
 }
 
-.product-box .content {
+.box .content { /* contenitore del testo all'interno della scheda */
   background: rgba(0, 0, 0, 0.6);
   width: 100%;
   padding: 20px;
@@ -84,12 +83,12 @@ body {
   text-align: center;
 }
 
-.product-box h2 {
+.box h2 { /* titolo/descrizione prodotto */
   margin: 0 0 10px;
   font-size: 24px;
 }
 
-.product-box a {
+.box a { /* comandi per pulsante cliccabile */
   padding: 10px 20px;
   background-color: #ffffff;
   color: #000;
