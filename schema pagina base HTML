@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!-- dice al browser che stiamo usando HTML5 -->
+<html lang="it"> <!-- documento HTML in lingua italiana -->
+<head> <!-- metadati e info per il browser: charset, titolo, responsive design, collegamenti a css, tutte info invisibili per l'utente -->
+    <meta charset="UTF-8">  <!-- set di caratteri, supporta lettere accentate, simboli -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- responsive design per mobile -->
+    <title>nome della pagina</title>  <!-- titolo che appare nella scheda del browser -->
+    <link rel="stylesheet" href="stile.css">  <!-- collegamento/link a css esterno -->
+</head>
+<body>  <!-- tutto quello che l'utente vede nella pagina si trova qui dentro -->
+    <header>  <!-- intestazione del sito: titolo, logo, menù, ecc -->
+        <h1>Benvenuti nel mio sito</h1>  <!-- titolo visibile sulla pagina -->
+        <nav>  <!-- menù di navigazione -->
+            <ul>  <!-- crea liste non ordinate, cioè con i pallini, serve per menù, elenchi, ecc -->
+                <li><a href="#home">Home</a></li>  <!-- elementi della lista -->
+                <li><a href="#chi siamo">Chi Siamo</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>  <!-- contenuto principale della pagina -->
+        <section id="Home">  <!-- è un contenitore con significato, divide la pagina in blocchi logici, ogni sezione dovrebbe parlare di un argomento preciso -->
+            <h2>Sezione Home</h2>
+            <p>Questo è il paragrafo di Benvenuto.</p>
+            <img src="immagine.jpg" alt="descrizione immagine">  <!-- collegamento a immagine -->
+        </section>
+        <section id="chi siamo">  <!-- titolo sezione per fare ordine nel codice -->
+            <h2>Chi Siamo</h2>  <!-- titolo visibile nella pagina -->
+            <p>Un po' di testo su di noi</p>
+        </section>
+        <section id="Contatti">
+            <h2>Contattaci</h2>
+            <form action="/invia" method="post">  <!-- crea un semplice form -->
+                <label for="nome">Nome:</label>  <!-- richiesta dati da inserire nel form -->
+                <input type="text" id="nome" name="nome" required>  <!-- spazio dati da inserire dall'utente -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="messaggio">Messaggio:</label>
+                <textarea id="messaggio" name="messaggio"></textarea>  <!-- spazio messaggio da inserire dall'utente -->
+
+                <button type="submit">Invia</button>  <!-- bottone "invia" cliccabile -->
+            </form>
+        </section>
+    </main>
+    <footer>  <!-- piè di pagina: copyright, link social, info legali ecc -->
+        <p>2025 Leonardo. Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+
+</html>
